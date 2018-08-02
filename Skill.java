@@ -1,6 +1,10 @@
 
-public interface Skill {
-	public static void main(String[] args) {
-		//string types int, agi, strength
+public abstract class Skill {
+	
+	private String type;
+	
+	public String getType() {
+		return this.type;
 	}
+	
 }
